@@ -20,18 +20,24 @@ distinct document_id (debate and year), candidate (e.g., REAGAN) and
 turn#. <br/>
 
 Each utterance is also marked with associated metadata regarding the
-candidate (e.g. name, party) and the election outcome (e.g.,
-party_winner). We initially compiled debate transcripts from the
-Commission on Presidential Debates (debates.org). Since the debates were
-widely televised and publicly available, the data are being distributed
-under fair use (<https://www.copyright.gov/fair-use/>) in that their
-intended use is for academic/scholarly research. We edited each raw
-transcript to omit commentator questions and remarks (e.g., “What is the
-most important issue facing the economy?”). We also ommitted
-parenthetical transcription notes (e.g., \[…coughing\]). <br/>
+candidate (e.g. name, party) election outcome (e.g., party_winner), and
+various other statistics about the US in that debate year including:
+<br/> 1) Democrat candidate age <br/> 2) Republican candidate age <br/>
+3) Age difference between candidates <br/> 3) Inflatiion rate in the
+year of the debate <br/> 4) GDP % change from prior year of debate <br/>
 
-Researchers are free to make use of this data for any purpose. However,
-we optimized the format to pair with a companion package
+We edited each raw transcript to omit commentator questions and remarks
+(e.g., “What is the most important issue facing the economy?”). We also
+ommitted parenthetical transcription notes (e.g., \[…coughing\]). <br/>
+
+We initially compiled debate transcripts from the Commission on
+Presidential Debates (debates.org). Since each of the debates we
+included were widely televised and publicly available, the data are
+considered fair use (<https://www.copyright.gov/fair-use/>). That is,
+their intended use is for academic/scholarly research. <br/>
+
+Researchers are free to make use of this data for any purpose. We
+optimized the format to work well with our companion R-package
 (ConversationAlign) designed to analyze alignment between two
 interlocutors. <br/>
 
