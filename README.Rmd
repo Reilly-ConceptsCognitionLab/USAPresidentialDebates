@@ -37,12 +37,10 @@ devtools::install_github("Reilly-ConceptsCognitionLab/USAPresidentialDebates")
 
 ## Call the transcripts
 Could not be more simple... call the library, then type the word debates.
-```{r}
+```{r, eval=F}
 library(USAPresidentialDebates)
 str(debates)
 ```
-
-
 
 
 ## Get in touch!
