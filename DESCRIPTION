@@ -26,5 +26,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://reilly-conceptscognitionlab.github.io/USAPresidentialDebates
+URL: https://reilly-conceptscognitionlab.github.io/USAPresidentialDebates, https://reilly-conceptscognitionlab.github.io/USAPresidentialDebates/
 RoxygenNote: 7.2.3

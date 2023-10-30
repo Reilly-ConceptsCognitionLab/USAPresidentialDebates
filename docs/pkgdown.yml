@@ -1,6 +1,10 @@
 pandoc: 3.1.1
 pkgdown: 2.0.7
 pkgdown_sha: ~
-articles: {}
-last_built: 2023-10-02T00:07Z
+articles:
+  ConversationAlign: ConversationAlign.html
+last_built: 2023-10-30T15:11Z
+urls:
+  reference: https://reilly-conceptscognitionlab.github.io/USAPresidentialDebates/reference
+  article: https://reilly-conceptscognitionlab.github.io/USAPresidentialDebates/articles
 
